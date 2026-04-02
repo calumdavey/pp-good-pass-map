@@ -137,6 +137,53 @@ Several observations are relevant:
 
 ---
 
+# The Ethnicity Dimension: White British Pupils and the Disadvantage Gap
+
+The school-level analysis above tells one part of the story. But it conceals something important: **not all disadvantaged pupils are equally likely to achieve a good pass, and ethnicity is a major factor**.
+
+## White British FSM pupils: near the bottom
+
+The chart below shows the grade 5+ good pass rate for FSM-eligible pupils broken down by ethnic group (England, 2022–23). Diamond markers show the equivalent rate for non-FSM pupils in each group.
+
+\vspace{0.3cm}
+
+![Grade 5+ good pass rate by ethnicity and FSM eligibility, England, 2022--23. Bars show FSM-eligible pupils; diamond markers show non-FSM pupils.](ethnicity_fsm_good_pass_bar.png)
+
+\vspace{0.3cm}
+
+**White British FSM-eligible pupils achieve just 18%** — the second lowest of any named ethnic group, above only Traveller of Irish Heritage and Gypsy/Roma pupils. This compares to:
+
+- **49%** for Bangladeshi FSM pupils
+- **49%** for Indian FSM pupils
+- **42%** for Black African FSM pupils
+- **26%** national average across all disadvantaged pupils
+
+Two features of this chart deserve attention. First, the gap between FSM and non-FSM pupils is enormous for White British pupils — **31 percentage points** — larger than for almost any other group. FSM status is a particularly strong predictor of low attainment among White British pupils. Second, many minority ethnic groups whose FSM pupils underperform nationally (e.g. Pakistani, Caribbean) still substantially outperform White British FSM pupils.
+
+## At school level: the same pattern holds
+
+The chart below shows, for each non-selective secondary school in England, the relationship between the proportion of pupils who are White British and the school's disadvantaged good pass rate.
+
+\vspace{0.3cm}
+
+![School-level disadvantaged good pass rate vs. proportion of pupils who are White British, non-selective state secondary schools, 2024--25.](white_british_vs_disadv_pass.png)
+
+\vspace{0.3cm}
+
+The downward trend is clear: **schools with higher proportions of White British pupils tend to have lower pass rates for their disadvantaged pupils** (r = -0.28). Schools with fewer than 20% White British pupils average a **40% pass rate** for disadvantaged pupils; schools with more than 37% White British pupils average around **26%** — equal to the national average for disadvantaged pupils but far below what the most diverse schools are achieving.
+
+This pattern is not simply an artefact of school location or funding. It reflects the compounding disadvantage faced by White British FSM pupils — who are, on average, further behind their non-FSM White British peers than almost any other group.
+
+## What this means
+
+The framing of the "disadvantage gap" as a single number conceals large variation by ethnicity. The aggregate 27pp gap between disadvantaged and non-disadvantaged pupils is, in part, driven by the especially low outcomes of White British disadvantaged pupils — who make up the **largest single group** of FSM pupils in England (around 80,000 pupils in the 2022/23 KS4 cohort).
+
+This has direct implications for how school improvement strategies are designed. Approaches that have worked well in highly diverse urban schools — strong academy chains, high expectations, disciplined curricula — may not translate straightforwardly to schools serving predominantly White British communities in post-industrial towns, coastal areas, or rural England. **The geography of the gap maps closely onto the geography of White British disadvantage**: the East Midlands, Yorkshire, the North East, and coastal towns are over-represented among schools where disadvantaged pupils do worst.
+
+For NIoT, this points to a targeting question that goes beyond the urban/rural divide: **what does effective teacher development look like in schools where White British disadvantaged pupils are the majority, and where the traditional narratives around diversity and inclusion may not apply?**
+
+---
+
 # Technical Notes
 
 **Data:** DfE Key Stage 4 Performance tables, 2024–25 (provisional). School-level breakdown by disadvantage status. "Good pass" = `engmath_95_percent` (grade 5+ in both English Language and Mathematics GCSE). Disadvantaged = ever-FSM in past 6 years + looked after children (pupil premium definition). Non-selective schools identified via GIAS (Get Information About Schools) admissions policy data. *n* = 3,110 non-selective state-funded secondary schools with non-suppressed disadvantaged data. 2,275 schools suppressed (typically where the disadvantaged cohort is fewer than 6 pupils).
@@ -144,6 +191,8 @@ Several observations are relevant:
 **Map boundaries:** England local authority boundaries from martinjc/UK-GeoJSON. School coordinates from GIAS Easting/Northing (OSGB36), converted to WGS84.
 
 **COVID caveat:** 2019–20 to 2021–22 results (centre- and teacher-assessed grades) are not comparable with exam years and are excluded from trend analysis.
+
+**Ethnicity data:** Grade 5+ by ethnicity × FSM from Social Mobility Commission / DfE Attainment at Age 16 dataset (2022–23). School-level White British proportions from DfE Schools, Pupils and Their Characteristics 2024–25 (January 2025 census), school-level underlying data file. Joined to KS4 disadvantage data by URN; 3,232 schools matched.
 
 **Analysis:** Python (pandas, matplotlib, pyproj). Data collected April 2026.
 
