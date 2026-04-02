@@ -184,6 +184,50 @@ For NIoT, this points to a targeting question that goes beyond the urban/rural d
 
 ---
 
+# Bringing It Together: Ethnicity and the High-Performing Schools
+
+The two threads of this analysis — the 52 schools beating the odds, and the stark gap in outcomes for White British FSM pupils — are directly connected. The ethnic composition of the high-performing schools is not incidental to their success: it is central to understanding it.
+
+## The ethnic make-up of high-performing schools
+
+The chart below compares the average ethnic composition of the 52 non-selective schools achieving 60%+ for disadvantaged pupils, against all other non-selective secondary schools.
+
+\vspace{0.3cm}
+
+![Mean ethnic composition of high-performing schools (>=60\% disadvantaged pass rate) vs. all other non-selective secondary schools, 2024--25.](ethnicity_highperform_vs_rest.png)
+
+\vspace{0.3cm}
+
+| Ethnic group | High-performing schools | All other schools | Difference |
+|:-------------|------------------------:|------------------:|-----------:|
+| White British | 26% | 62% | -36pp |
+| Asian | 33% | 12% | +21pp |
+| Black | 13% | 7% | +6pp |
+| Mixed | 10% | 7% | +3pp |
+| Other White | 9% | 7% | +2pp |
+
+The contrast is stark. In the typical English secondary school, **62% of pupils are White British**. In the 52 high-performing schools, that figure is just **26%**. Conversely, Asian pupils make up 33% of high-performing schools on average, compared to 12% in the rest.
+
+## What this does — and does not — mean
+
+This finding demands careful interpretation. It does **not** mean that schools succeed simply by virtue of having fewer White British pupils. It means that:
+
+**1. High-performing schools are disproportionately serving communities where disadvantaged pupils from minority ethnic groups — particularly South Asian groups — tend to achieve relatively well.** As the ethnicity chart earlier showed, Bangladeshi, Indian, Pakistani, and Black African FSM pupils all substantially outperform White British FSM pupils. Schools with high proportions of these pupils will, mechanically, show higher average pass rates for "disadvantaged pupils" as a group.
+
+**2. London's dominance compounds this.** Two-thirds of the 52 schools are in London, which has both a higher concentration of minority ethnic pupils and a sustained legacy of school improvement investment. Disentangling the ethnic composition effect from the London Effect is not possible with this data alone.
+
+**3. The high-performing schools are still genuinely impressive.** Even within minority ethnic groups, FSM pass rates are typically well below 50%. Schools achieving 60%+ for their entire disadvantaged cohort — which includes a mix of ethnic groups — are doing something real. The chains (Star Academies, Ark, Harris) are not simply lucky in their intake; they apply structured, evidence-based approaches that raise outcomes across ethnic groups.
+
+**4. The corollary is the hardest finding.** There are very few high-performing schools for disadvantaged White British pupils. Those schools exist in smaller numbers, tend to be in London (where even White British communities are more mixed), and are not well-represented in the post-industrial towns and coastal communities where White British FSM pupils are most concentrated. **The absence of high-performing schools in those areas is, in effect, a failure of the system to develop and sustain effective approaches for this specific population.**
+
+## The implication for NIoT
+
+The analysis points to a specific and under-addressed challenge: **what does excellent teaching and school leadership look like for predominantly White British, disadvantaged communities?** The approaches that have driven improvement in diverse urban schools are real and important. But they are not sufficient to close the gap nationally.
+
+Halving the disadvantage gap — the Schools White Paper ambition — will require building a new evidence base around what works for White British disadvantaged pupils specifically: in the schools, towns, and regions where they are concentrated, and where the current system is most conspicuously failing them. This is where NIoT's reach beyond London and into underserved regions could make its most distinctive contribution.
+
+---
+
 # Technical Notes
 
 **Data:** DfE Key Stage 4 Performance tables, 2024–25 (provisional). School-level breakdown by disadvantage status. "Good pass" = `engmath_95_percent` (grade 5+ in both English Language and Mathematics GCSE). Disadvantaged = ever-FSM in past 6 years + looked after children (pupil premium definition). Non-selective schools identified via GIAS (Get Information About Schools) admissions policy data. *n* = 3,110 non-selective state-funded secondary schools with non-suppressed disadvantaged data. 2,275 schools suppressed (typically where the disadvantaged cohort is fewer than 6 pupils).
