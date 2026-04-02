@@ -1,0 +1,8 @@
+academic_year,disadvantaged_pct,non_disadvantaged_pct,all_pupils_pct,gap_pp,notes,source
+2018-19,24.8,50.0,43.4,25.2,"First year with clean comparable grade 5+ data. Disadvantaged = ever FSM in past 6 years or looked after.","DfE KS4 performance 2018-19; Social Mobility Commission"
+2019-20,30.4,56.8,49.9,26.4,"COVID year: centre-assessed grades inflated all figures. Not comparable with exam years.","DfE KS4 performance 2019-20; Social Mobility Commission"
+2020-21,31.7,59.2,51.9,27.5,"COVID year: teacher-assessed grades inflated all figures. Not comparable with exam years.","DfE KS4 performance 2020-21; Social Mobility Commission"
+2021-22,29.7,57.2,50.0,27.5,"Transition year: mixed approach. Still elevated vs pre-pandemic. Not fully comparable.","DfE KS4 performance 2021-22; Social Mobility Commission"
+2022-23,25.4,52.6,45.5,27.2,"Return to exams. Gap wider than pre-pandemic (was 25.2pp in 2018-19).","DfE KS4 performance 2022-23; Social Mobility Commission"
+2023-24,26.0,53.4,46.2,27.4,"Gap unchanged from previous year. Schools White Paper commits to halving this gap.","DfE KS4 performance 2023-24; Social Mobility Commission"
+2024-25,,,,"Gap index 3.92 (down from 3.94). Specific % not yet published at time of data collection.","DfE KS4 performance 2024-25 (provisional)"
